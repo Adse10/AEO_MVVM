@@ -23,6 +23,8 @@
 		51825FDA264AF49400C7D991 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51825FD9264AF49400C7D991 /* Localizable.strings */; };
 		51825FDD264AF51200C7D991 /* CivilizationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51825FDC264AF51200C7D991 /* CivilizationDetailView.swift */; };
 		51825FE0264AF5DD00C7D991 /* CivilizationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51825FDF264AF5DD00C7D991 /* CivilizationDetailViewModel.swift */; };
+		51825FE5264AFD6400C7D991 /* Girassol-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51825FE4264AFD6400C7D991 /* Girassol-Regular.ttf */; };
+		51825FE9264AFE3B00C7D991 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51825FE8264AFE3B00C7D991 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		51825FD9264AF49400C7D991 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		51825FDC264AF51200C7D991 /* CivilizationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilizationDetailView.swift; sourceTree = "<group>"; };
 		51825FDF264AF5DD00C7D991 /* CivilizationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilizationDetailViewModel.swift; sourceTree = "<group>"; };
+		51825FE4264AFD6400C7D991 /* Girassol-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Girassol-Regular.ttf"; sourceTree = "<group>"; };
+		51825FE8264AFE3B00C7D991 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		51825F96264AE96500C7D991 /* AEO_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				51825FE2264AFD3D00C7D991 /* Resources */,
 				51825FAF264AE9AF00C7D991 /* Modules */,
 				51825FAE264AE9AB00C7D991 /* Extensions */,
 				51825FAD264AE9A100C7D991 /* Constants */,
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				51825FCA264AEC6700C7D991 /* StringExtension.swift */,
+				51825FE8264AFE3B00C7D991 /* Styles.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -209,6 +215,22 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		51825FE2264AFD3D00C7D991 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51825FE3264AFD4500C7D991 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		51825FE3264AFD4500C7D991 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51825FE4264AFD6400C7D991 /* Girassol-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,6 +293,7 @@
 				51825FA1264AE96600C7D991 /* Assets.xcassets in Resources */,
 				51825FD7264AEFFC00C7D991 /* CivilizationCell.xib in Resources */,
 				51825F9F264AE96500C7D991 /* Main.storyboard in Resources */,
+				51825FE5264AFD6400C7D991 /* Girassol-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +307,7 @@
 				51825FD6264AEFFC00C7D991 /* CivilizationCell.swift in Sources */,
 				51825FCE264AECB800C7D991 /* CivilizationListViewModel.swift in Sources */,
 				51825FC8264AEBD500C7D991 /* CivilizationListView.swift in Sources */,
+				51825FE9264AFE3B00C7D991 /* Styles.swift in Sources */,
 				51825F98264AE96500C7D991 /* AppDelegate.swift in Sources */,
 				51825FDD264AF51200C7D991 /* CivilizationDetailView.swift in Sources */,
 				51825FE0264AF5DD00C7D991 /* CivilizationDetailViewModel.swift in Sources */,

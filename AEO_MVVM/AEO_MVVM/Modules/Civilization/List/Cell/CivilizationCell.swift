@@ -16,8 +16,18 @@ class CivilizationCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        // Creamos estilos
+        loadStyles()
         // Initialization code
     }
+    
+    // MARK: - Funciones privadas
+    
+    private func loadStyles(){
+        lbName.font = UIFont(name: "Girassol-Regular", size: UIFont.labelFontSize)
+    }
+    
+    // MARK: - Funciones públicas
 
     func loadCivilization(_ civilization: Civilization){
         if let name = civilization.name {

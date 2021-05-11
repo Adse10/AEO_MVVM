@@ -34,13 +34,9 @@ class CivilizationDetailView: UIViewController {
     // MARK: Funciones privadas
     
     private func loadStyles(){
-        lbTitleName.font = UIFont.boldSystemFont(ofSize: 18)
-        lbTitleExpansion.font = UIFont.boldSystemFont(ofSize: 18)
-        lbTitleArmy.font = UIFont.boldSystemFont(ofSize: 18)
-        // Textos
-        lbTitleName.text = "name".localize()
-        lbTitleExpansion.text = "expansion".localize()
-        lbTitleArmy.text = "army.type".localize()
+        lbTitleName.styleTitle(text: "name")
+        lbTitleExpansion.styleTitle(text: "expansion")
+        lbTitleArmy.styleTitle(text: "army.type")
     }
     
     private func loadData(){
