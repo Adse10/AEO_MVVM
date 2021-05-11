@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  AEO_MVVM
+
+  Created by Adrián Bolaños Ríos on 11/05/2021.
+  
+*/
+
+"civilizations" = "Civilizaciones";
+"name" = "Nombre:";
+"expansion" = "Expansión:";
+"army.type" = "Tipo de armas:";
